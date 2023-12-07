@@ -1,0 +1,185 @@
+@media (max-width : 900px){
+  header  nav .contaner div.bar{
+        display: flex;
+        font-size: larger;
+        padding-top: 3%;
+    } 
+    nav .contaner .row{
+        display: none;
+       }
+       div.home{
+        & div.pic{
+            width: 100%;
+        }
+        margin: auto;
+        text-align: center;
+        display: block;
+        & div.co{
+            text-align: center;
+            width: 80%;
+        }
+        & button{
+            display: inline;
+            padding: 10px;
+            margin: auto;
+        }
+        & div.r1{
+           width: 100%;
+            text-align: center;
+            display: block;
+            & div.s{
+                width: 100%;
+                & p{
+                    margin: 6%;
+                }
+            }
+        }
+       }
+        div.corona{
+            display: block;
+            & div.g1{
+                text-align: center;
+                width: 90%;
+              
+            }
+            & div.g2{
+                width: 90%;
+               
+            }
+        }
+        div.spread div.cards{
+            text-align: center;
+            display: block;
+            & div.card{
+                text-align: center;
+                width: 100%;
+               margin: 5% 0%;
+               
+            }
+
+        }
+        div.symp{
+            display: block;
+            & div.parts{
+                display: block;
+                & div.part{
+                    width: 75%;
+                }
+            }
+            & div.warning{
+                display: block;
+                & div.warn1{
+                    margin-left: 7%;
+                    margin-bottom: 10%;
+                    text-align: center;
+                    display: block;
+                    width: 90%;
+                    & p{
+                        text-align: center;
+                    }
+                }
+                & div.warn2{
+                    margin-left: 7%;
+                    width: 90%;
+                   & button{
+                    padding: 5px;
+                   }
+                }
+            }
+        }
+        div.doc {
+           display: inline-block;
+            width: 75%;
+            & div{
+                width: 100%;
+            }
+            & div.h {
+                width: 100%;
+                text-align: center;
+                & p{
+                    text-align: center;
+                }
+            }
+           & div.pic{
+                width: 80%;
+                & img{
+                    width: 80%;
+                }
+            }
+        }
+        div.wash div.s {
+            display: block;
+            & div.step{
+                padding-left: 3%;
+                width: 93%;
+                text-align: center;
+            }
+            padding-bottom: 5%;
+        }
+        div.treat {
+            display: block;
+            & div.t1{
+                  width: 92%;
+                  text-align: center;
+            }
+            & div.t2{
+                width: 92%;
+                text-align: center;
+          }
+        }
+        div.pro2{
+            display: block;
+            & div.d1{
+                width: 90%;
+                & div.dont{
+                    justify-content: center;
+                }
+            }
+            & div.d2{
+                padding-left: 5%;
+                width: 90%;
+            }
+            & div.d3{
+                width: 90%;
+                & div.do{
+                    justify-content: center;
+                }
+            }
+        }
+        div.l2{
+            margin-top: 10%;
+            display: block;
+            & div.list1{
+                width: 85%;
+                margin-left: 7%;
+                margin-bottom: 5%;
+            }
+            & div.list2{
+                margin-left: 7%;
+                width: 85%;
+                margin-bottom: 5%;
+            }
+        }
+        div.news{
+            display: block;
+            & div.new{
+                margin: 5% 0;
+                width: 95%;
+            }
+        }
+        div.footer2 div.top{
+            display: block;
+           & div.text1{
+                width: 90%;
+                text-align: center;
+            }
+            & div.text2{
+                width: 90%;
+                text-align: center;
+            }
+            & div.text{
+                width: 90%;
+                text-align: center;
+            }
+        }
+}
